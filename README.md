@@ -4,7 +4,7 @@ The goal of this project is to get notified about the available vaccine time by 
 
 # Description
 
-The code is checking the availability of vaccine appointment for a certain location which is Siilainen, Joensuu. 
+The code is checking the availability of vaccine appointment for a certain location which is Siilainen, Joensuu and Rääkkylä. The first priority is Siilainen and the second one is Rääkkylä.
 
 ### Getting started
 
