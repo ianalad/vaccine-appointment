@@ -22,10 +22,10 @@ SHELL=/bin/sh
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 #End borrowed from anacron
 
-0 * * * *   /opt/anaconda3/bin/python  /Users/usr/Automation/Corona_Vaccine.py >> /Users/usr/Automation/log.txt
+05 * * * *  /opt/anaconda3/bin/python  /Users/usr/Automation/Corona_Vaccine.py >> /Users/usr/Automation/log.txt
 ```
 
-to schedule the script to run every hour. The log results are stored in the log.txt file. 
+to schedule the script to run at every hour at 5 minutes (12:05, 13:05 and etc). The log results are stored in the log.txt file. 
 
 ## Authors
 
